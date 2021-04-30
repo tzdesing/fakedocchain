@@ -1,10 +1,35 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
+  "api1':{
+    "my-batches":[],
+    "register": [
+      {
+        "id":1,
+        "payload":"{
+          "campo1":"campo1",
+          "campo1":"campo1",
+          "document_type": "string",
+          "document_number": "string",
+          "renter_name": "string",
+          "vehicle_group": "string",
+          "pickup_location": "string",
+          "return_location": "string",
+          "pickup_date": "any",
+          "return_date": "any",
+          "status": "string"
+        },
+        "linearId":"9898787_ju9889k_89089789",
+        "nodeFrom":{"CN":"PartyA","O":"PartyA"},
+        "nodeTo":{"CN":"PartyB","O":"PartyB"}
+      },
+      {
+        "id":2,
+        "payload":"{"campo1":"campo1","campo1":"campo1"},
+        "linearId":"9898787_ju9889k_89089789",
+        "nodeFrom":{"CN":"PartyA","O":"PartyA"},
+        "nodeTo":{"CN":"PartyB","O":"PartyB"}
+      }
+    ]
+  }
   "profile": {
     "name": "typicode"
   }
