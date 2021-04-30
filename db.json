@@ -16,7 +16,7 @@
 			"nodeFrom":{"CN":"PartyA","O":"PartyA"},
 			"nodeTo":{"CN":"PartyB","O":"PartyB"}
 		}
-    ]
+    ],
   
   "profile": {
     "name": "typicode"
