@@ -1,5 +1,5 @@
 {
-  "api1":{
+  
     "my-batches":[],
     "register":[
 		{
@@ -17,7 +17,7 @@
 			"nodeTo":{"CN":"PartyB","O":"PartyB"}
 		}
     ]
-  },
+  
   "profile": {
     "name": "typicode"
   }
