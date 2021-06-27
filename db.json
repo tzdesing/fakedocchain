@@ -3,11 +3,10 @@
     "my-batches":[],
     "register":[
 		{
-			"id":1,
-			"payload":"{\"document_type\":\"string\",\"document_number\":\"string\",\"renter_name\":\"string\",\"vehicle_group\":\"string\",\"pickup_location\":\"string\",\"return_location\":\"string\",\"pickup_date\":\"any\",\"return_date\":\"any\",\"status\":\"string\"}",
-			"linearId":"9898787_ju9889k_89089789",
-			"nodeFrom":{"CN":"PartyA","O":"PartyA"},
-			"nodeTo":{"CN":"PartyB","O":"PartyB"}
+			"valid":true,
+    			"scope":"openid accounts",
+    			"roles":["DADOS","PAGTO"],
+    			"redirect_uris": ["http://redirectA.com","http://redirectB.com"]
 		},
 		{
 			"id":2,
