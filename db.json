@@ -1,21 +1,13 @@
 {
   
     "my-batches":[],
-    "register":[
+    "register":
 		{
 			"valid":true,
     			"scope":"openid accounts",
     			"roles":["DADOS","PAGTO"],
     			"redirect_uris": ["http://redirectA.com","http://redirectB.com"]
 		},
-		{
-			"id":2,
-			"payload":"{\"campo1\":\"campo1\",\"campo1\":\"campo1\"}",
-			"linearId":"9898787_ju9889k_89089789",
-			"nodeFrom":{"CN":"PartyA","O":"PartyA"},
-			"nodeTo":{"CN":"PartyB","O":"PartyB"}
-		}
-    ],
   
   "profile": {
     "name": "typicode"
