@@ -8,7 +8,10 @@
     			"roles":["DADOS","PAGTO"],
     			"redirect_uris": ["http://redirectA.com","http://redirectB.com"]
 		},
-  
+  "decrypter":
+	{
+		"valid":true
+	},
   "profile": {
     "name": "typicode"
   }
