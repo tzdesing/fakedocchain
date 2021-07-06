@@ -9,9 +9,23 @@
     			"redirect_uris": ["http://redirectA.com","http://redirectB.com"]
 		},
   "decrypter":
-	{
-		"valid":true
-	},
+	 {
+            "keys": [
+                {
+                    "kty": "RSA",
+                    "kid": "qRVPuV76Gi6tblrDqY2dkBHUuFg-__rOHZ-bsXxY0ys",
+                    "alg": "PS256",
+                    "n": "sN3P7_X7yFGDs8G9Qc8C1HSlht-BsWoYjT2mjqUpAKWKenUGVIEkXhFY0H8s8IYy8HGjbCaT71odCeRVhdywBwmhxx1gLfoh217p2i6UgDw_WpwiLkc3ADn_J4Q1EXBqPEY36wpjn1TqapAVvehvVA92iovBQugSzihNJR9nXq-jI1SplOABHD8KWnl2PgWQxZmWuXXYcjqtEc3VWG78Q-3DPl-K6tEl4o6Md2qXAjN8e376qRRI3ZGoSHCmPFnoPOGN0X_bK7ge-SD2A3A99GZYhHHmxwwlOLqt_TJhm6h1-tX3WQ1ym48THLZkrMGhP-3bivWaBCYgfBksVMdhcw",
+                    "e": "AQAB",
+                    "d": "roKt4P685_JGGN9Ydc5j5G0TxfhSZ1Nf1jy2Upjz1AeCk0FUdZzW3VoQX-ib1tcS-9uke9m0rb4kWNZK7EHMDaWbUnPRqovbTDBiXT0ImV7Yw_a6Yx8xTa_r6nmwQvzAVaiTE_60PUnz4iE40qC8-BwpwpoSnomNxIxPUgmiXPEbM9HprcPWGY84c6azAeWNxjxcOLKnTUubL0ryMc32ikYWNCMJT0xxqIb2LCqTu9egh_1XqVGHSeb1KMmEmBTc-9_rg8aRymsNfeW9tLe_C8TMHOPBdB2C7ph53i6vJebDztA2tkmJi7Y8V3IE5KAzfAPJOESNI1558S0KoKCrQQ",
+                    "p": "4oHxRCp848hBOKZTAbfYTOyVf6im1In_yiuDvOPlS8-x-EzYi2LydXr-m_1kiuZP0S0dgB1WQcy0TwY9ygTFXNDhqVC72UaHsypLYqZf--U_BbMyenfFXYipMlSdCHaL1E250zR1Yb-WU0zaRo6aTCF_JgOmX1xKCX7BffRV8mc",
+                    "q": "x-U1SuBPReC32VtY0Wn8rrEqNnazNTAk76bTzANoLfeGYITLYwh29iAT0wKGQOlUFdmuF9zxbYp9Y1TDaz0mDgALQ9nZXRLG3FUr7ecAqSrZ0vQGAmancefDyo6sitG6smBq4tepxVV2zR-FGV9YS8pxWUkNZQAtTlIpnanYKRU",
+                    "dp": "zQYjlbkDrMahyp46ek6nuhFXzOKih7WV07CJoRuDfJi2FfOw-pIItzAqcJXvQQ7xZnx4vHNRlWOuPe1_VnH1F2t3J2QNdMEzqYf6DoRcU0yRPB6U7WemPWCrDgSq03NCZFwqfLN6II1ji2kAFmeT4J9dUNJy8NQ_q9KRX-ofNbc",
+                    "dq": "aUDbSs3Jb_XfWGes4Ld6AVHv9DWULxFmoXmqU-YHWQzYiMHjhgXS_c3uIlFV95_kUo0ICjCgPxmI5GChdToBa6XCSLvQpB1a8HE4bFASHQEfKOCsuV7sFCIBCgsN9xpvv7TdEwyTrABQSbmrD60QhPfXrze0AdaSBIdmuknQM_E",
+                    "qi": "fKp33bPVa8aseO-DrrR_iLA79IjHb7Y7AtFc7ZNf-lV6EolXWDFu_vL0MCyBGifTIrqBSWfqUybWfJNtAya61EgppHHwlXWbikj0gP2orSS-DFvWDuxNnI_vHgX_D6Lu7YIn57XrFHhKqwjSSO0RTpK2TI8djZtqam8jZyuhuGc"
+                }
+            ]
+        },
   "profile": {
     "name": "typicode"
   }
